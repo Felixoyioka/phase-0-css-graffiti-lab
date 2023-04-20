@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+    background-color: blue;
+    width: 900px;
+    height: 620px;
+    color: aqua;
+}
+#wall #tag-2 {
+background-color: blueviolet;
+    z-index: 5;
+    display: none;
+}
+.parent #tag-5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 980px;
+    height: 622px;
+}
+}
